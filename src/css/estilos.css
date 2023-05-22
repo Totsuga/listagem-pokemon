@@ -110,3 +110,30 @@ main .descricao{
     font-size: 14px;
     padding-right: 10px;
 }
+
+.contatos{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contatos ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contatos .icone{
+    width: 30px;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+}
+
+.contatos .icone:hover{
+    transform: scale(1.2);
+}
